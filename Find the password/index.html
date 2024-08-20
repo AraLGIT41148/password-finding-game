@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Buttons with different IDs for identification -->
+        <button id="a" onclick="toggleButtonState(buttonA)" class="button">0</button>
+        <button id="b" onclick="toggleButtonState(buttonB)" class="button">0</button>
+        <button id="c" onclick="toggleButtonState(buttonC)" class="button">0</button><br>
+        <button id="d" onclick="toggleButtonState(buttonD)" class="button">0</button>
+        <button id="e" onclick="toggleButtonState(buttonE)" class="button">0</button>
+        <button id="f" onclick="toggleButtonState(buttonF)" class="button">0</button><br>
+        <button id="g" onclick="toggleButtonState(buttonG)" class="button">0</button>
+        <button id="h" onclick="toggleButtonState(buttonH)" class="button">0</button>
+        <button id="i" onclick="toggleButtonState(buttonI)" class="button">0</button><br>
+        
+        <!-- "Confirm" and "Reset" buttons and confirmation message -->
+        <div class="button-actions">
+            <button onclick="validateSelection()">Confirm</button>
+            <button onclick="resetSelection()">Reset</button>
+            <p id="confirmation"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

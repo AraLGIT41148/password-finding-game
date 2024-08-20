@@ -1,0 +1,29 @@
+/* Style for the entire body of the page */
+body {
+    background-color: #c3c4c7;
+}
+
+/* Style for the button container */
+.container {
+    text-align: center;
+    margin: 246px 0 0 0;
+    border: 50px solid dimgray;
+    padding: 50px;
+    background: linear-gradient(90deg, gray, lightgray, gray);
+    border-radius: 100px 100px 300px 300px;
+}
+
+/* General style for buttons */
+.button {
+    color: white;
+}
+
+/* Style for the confirmation message */
+#confirmation {
+    margin: 5px 0 0 0;
+}
+
+/* Style for the button actions container */
+.button-actions {
+    margin: 0 0 0 40px;
+}
